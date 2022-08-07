@@ -1,0 +1,285 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="normalize.css">
+  <title>My Moments</title>
+</head>
+
+<style>
+
+body {
+  display: flex;
+  line-height: 130%;
+  color: blue;
+}
+aside{
+  overflow: hidden;
+}
+#aside-head{
+  display: flex;
+  background-color: white;
+  height: 50px;
+  padding: 16px;
+  padding-left: 6px;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+#aside-list{
+  background-color: white;
+  width: 500px;
+  height: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+}
+p {
+  margin: 0;
+}
+article {
+  display: flex;
+  flex: 1;
+}
+section {
+  width: 300px;
+  padding: 16px;
+  box-sizing: border-box;
+  background-color: black;
+  overflow: scroll;
+}
+main {
+  background-color: white;
+  flex: 1;
+  padding: 16px;
+  box-sizing: border-box;
+  overflow: scroll;
+}
+
+#section-img1 {
+  background:url("images/1.jpg") center / contain no-repeat;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+#section-img2 {
+  background:url("images/2.jpg") center / contain no-repeat;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+#section-img3 {
+  background:url("images/3.jpg") center / cover no-repeat;
+  width: 200px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+#section-img4 {
+  background:url("images/4.jpg") center / cover no-repeat;
+  width: 200px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#section-img5 {
+  background:url("images/5.jpg") center / cover no-repeat;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#section-img6 {
+  background:url("images/6.jpg") center / cover no-repeat;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+#section-img7 {
+  background:url("images/7.jpg") center / cover no-repeat;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  opacity: 70%;
+}
+
+#main-img1 {
+display: flex;
+}
+
+#main-img1-1 {
+  position: relative;
+  background: url("images/1-1.jpg") center / cover no-repeat;
+  width: 420px;
+  height: 420px;
+  margin: 0 auto;
+  cursor: help;
+}
+#main-img1-1 > div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 50, 50, 0.2);
+  opacity: 0;
+  transition: all 0.3s;
+}
+#main-img1-1:hover > div {
+  opacity: 1;
+
+}
+
+#main-img1-2 {
+  background: url("images/1-2.jpg") center / cover no-repeat;
+  width: 420px;
+  height: 420px;
+  margin: 0 auto;
+}
+
+#main-img1-des > p {
+  padding: 30px;
+  text-align: justify;
+  color: rgb(162, 162, 162);
+}
+#main-img2 {
+  background: url("images/main2.jpg") center / cover no-repeat;
+  width: 900px;
+  height: 500px;
+  margin: 0 auto;
+}
+#main-img3 {
+  background: url("images/main4.jpg") center / cover no-repeat;
+  width: 900px;
+  height: 1200px;
+  margin: 0 auto;
+}
+
+
+
+</style>
+
+<body>
+  <aside>
+    <header id="aside-head">
+        <div>
+          Yebin kim
+        </div>
+        <div>
+          Corinthians 16:14
+        </div>
+        <div>
+          Walk
+        </div>
+        <div>
+          Film
+        </div>
+        <div>
+          Designer
+        </div>
+        <div>
+          <a href="sunset.html">
+            Sunset
+          </a>
+        </div>
+
+    </header>
+    <div id="aside-list">
+      <p>
+        Lorem Ipsum is simply dummy text of the printing 
+        and typesetting industry. Lorem Ipsum has been the
+         industry's standard dummy text ever since the 1500s, 
+         when an unknown printer took a galley of type and 
+         scrambled it to make a type specimen book. It has 
+         survived not only five centuries, but also the leap 
+         into electronic typesetting, remaining essentially 
+         unchanged. It was popularised in the 1960s with the
+         release of Letraset sheets containing Lorem Ipsum
+          passages, and more recently with desktop publishing
+          software like Aldus PageMaker including versions of Lorem Ipsum.
+      </p>
+      <br>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing 
+        and typesetting industry. Lorem Ipsum has been the
+         industry's standard dummy text 
+      </p>
+      <br>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing 
+        and typesetting industry. Lorem Ipsum has been the
+         industry's standard dummy text ever since the 1500s, 
+         when an unknown printer took a galley of type and 
+         scrambled it to make a type specimen book. It has 
+         survived not only five centuries, but also the leap 
+         into electronic typesetting, remaining essentially 
+         unchanged. It was popularised in the 1960s with the
+      </p>
+      <br>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing 
+        and typesetting industry. Lorem Ipsum has been the
+         industry's standard dummy text 
+      </p>
+      <br>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing 
+        and typesetting industry. Lorem Ipsum has been the
+        industry's standard dummy text 
+        industry's standard dummy text ever since the 1500s, 
+        when an unknown printer took a galley of type and 
+        scrambled it to make a type specimen book. It has 
+        survived not only five centuries, but also the leap 
+        into electronic typesetting, remaining essentially 
+        unchanged. It was popularised in the 1960s with the
+      </p>
+    </div>
+  </aside>
+    
+  <article>
+    <section id="section-nav">
+      <div id="section-img6"></div>
+      <div id="section-img1"></div>
+      <div id="section-img2"></div>
+      <div id="section-img7"></div>
+      <div id="section-img3"></div>
+      <div id="section-img5"></div>
+      <div id="section-img4"></div>
+    </section>
+    <main id="works">
+      <div id="main-img1">
+        <div id="main-img1-1">
+          <div></div>
+        </div>
+        
+        <div id="main-img1-2"></div>
+        
+      </div>
+      <div id="main-img1-des">
+        <p>
+          Lorem Ipsum is simply dummy text of the printing 
+          and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text 
+          industry's standard dummy text ever since the 1500s, 
+          when an unknown printer took a galley of type and 
+          scrambled it to make a type specimen book. It has 
+          survived not only five centuries, but also the leap 
+          into electronic typesetting, remaining essentially 
+          unchanged. It was popularised in the 1960s with the
+        </p>
+      </div>
+      <div id="main-img2"></div>
+      <div id="main-img3"></div>
+      <div id="main-img4"></div>
+      <div id="main-img5"></div>
+      <div id="main-img6"></div>
+    </main>
+  </article>
+  
+</body>
+</html>
